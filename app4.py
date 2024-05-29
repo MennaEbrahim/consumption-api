@@ -12,7 +12,7 @@ import re
 import pandas as pd
 
 app=FastAPI()
-pickle_in=open("C:/Users/menna/app4/model4.pkl","rb")
+pickle_in=open("model4.pkl","rb")
 model=pickle.load(pickle_in)
 
 
